@@ -225,6 +225,8 @@ SWIFT_CLASS("_TtC4Sign13Configuration")
 @property (nonatomic) CGFloat btnBorderWidth;
 /// Signature View background color
 @property (nonatomic, strong) UIColor * _Nonnull viewBGColor;
+/// view alpha range 0.0 - 1.0
+/// 1.0 means opaque, 0.0 - 0.9 means transparency level
 @property (nonatomic) CGFloat viewAlpha;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
