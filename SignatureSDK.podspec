@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SignatureSDK'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'To add Digital Signature'
 
   s.description      = 'Pod to use signature view in your iOS apps'
