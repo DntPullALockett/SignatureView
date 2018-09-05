@@ -7,18 +7,22 @@ This view has three buttons :
 3. Done - to get the image of signature that can be used in App.
 
 
-Installation can be done via CocoaPods / Carthage.
+**Installation can be done via CocoaPods / Carthage.**
 
 
-CocoaPods - pod 'SignatureSDK'
+**CocoaPods**
 
-Carthage - github "SharadGoyal/SignatureView"
+ pod 'SignatureSDK'
 
-Steps to use this framework :
-1. Import “Sign” framework in your file (e.g. import Sign)
-2. Make an object of Configuration class. (e.g. let config = Configuration())
-3. To customise the look & feel of Signature view, set the properties of Configuration class.
-4. Initialise SignatureView with configuration object and a closure to get image of signature.
+**Carthage**
+
+ github "SharadGoyal/SignatureView"
+
+**Steps to use this framework :**
+1. *Import “Sign” framework in your file (e.g. import Sign)*
+2. *Make an object of Configuration class. (e.g. let config = Configuration())*
+3. *To customise the look & feel of Signature view, set the properties of Configuration class.*
+4. *Initialise SignatureView with configuration object and a closure to get image of signature.*
 
 
 @objc public class Configuration : NSObject {
