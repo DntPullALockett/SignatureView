@@ -10,13 +10,13 @@ This view has three buttons :
 **Installation can be done via CocoaPods / Carthage.**
 
 
-**CocoaPods**
+**1. CocoaPods**
 
- pod 'SignatureSDK'
+     - pod 'SignatureSDK'
 
-**Carthage**
+**2. Carthage**
 
- github "SharadGoyal/SignatureView"
+     - github "SharadGoyal/SignatureView"
 
 **Steps to use this framework :**
 1. *Import “Sign” framework in your file (e.g. import Sign)*
