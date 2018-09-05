@@ -7,7 +7,7 @@ This view has three buttons :
 3. Done - to get the image of signature that can be used in App.
 
 
-**Installation can be done via CocoaPods / Carthage.**
+## Installation can be done via CocoaPods / Carthage.
 
 
 **1. CocoaPods**
@@ -18,13 +18,13 @@ This view has three buttons :
 
      - github "SharadGoyal/SignatureView"
 
-**Steps to use this framework :**
+### Steps to use this framework :
 1. *Import “Sign” framework in your file (e.g. import Sign)*
 2. *Make an object of Configuration class. (e.g. let config = Configuration())*
 3. *To customise the look & feel of Signature view, set the properties of Configuration class.*
 4. *Initialise SignatureView with configuration object and a closure to get image of signature.*
 
-<code>
+```  
 @objc public class Configuration : NSObject {
 
     /// label placeholder text
@@ -81,10 +81,12 @@ This view has three buttons :
     /// UIButton border width
     @objc public var btnBorderWidth: CGFloat
 }
-</code>
+```
 
-Basic Code Example :
+### Basic Code Example :
 
+```
+     
 import UIKit
 import Sign
 
@@ -107,3 +109,4 @@ class ViewController: UIViewController {
         }
     }
 }
+```
